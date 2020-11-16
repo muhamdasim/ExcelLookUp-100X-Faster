@@ -1,0 +1,42 @@
+{
+   "batch_name": "batch1000",
+   "state": "tx",
+   "county": "hays",
+   "files_collector": {},
+   "files_aggregator": {
+     "files": [
+       {
+         "filename": "/../input/land.csv",
+         "lable": "land",
+         "index": "QuickRefID",
+         "single_record_per_index": false,
+         "mandatory": true,
+         "is_master": false
+       },
+       {
+         "filename": "input/owner.csv",
+         "lable": "owner",
+         "index": "QuickRefID",
+         "single_record_per_index": false,
+         "mandatory": true,
+         "is_master": false
+       },
+       {
+         "filename": "input/property.csv",
+         "lable": "property",
+         "index": "QuickRefID",
+         "single_record_per_index": true,
+         "mandatory": true,
+         "is_master": true
+       },
+       {
+         "filename": "input/sales.csv",
+         "lable": "sales",
+         "index": "QuickRefID",
+         "single_record_per_index": false,
+         "mandatory": true,
+         "is_master": false
+       }
+     ]
+   }
+ }
